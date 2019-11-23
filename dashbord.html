@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RC_dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+
+<body>
+    <header>
+        <h1> Admin Panel </h1>
+        <ul class="utilities">
+            <li class="users"><a href="#"> My Account </a></li>
+            <li class="logout warn"><a href=""> Log Out</a></li>
+        </ul>
+    </header>
+
+    <nav role="navigation">
+        <ul class="main">
+            <li class="dashboard"><a href="#"> dashboard</a></li>
+            <li class="write">
+                <a href="#">Write Post</a>
+            </li>
+            <li class="edit">
+                <a href="#"> Edit Posts </a>
+            </li>
+            <li class="comments">
+                <a href="#"> Comments </a>
+            </li>
+            <li class="users">
+                <a href="#">Manage Users</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main role="main">
+        <section class="panel important">
+            <h2> Welcom to your dashboard</h2>
+            <ul>
+                <li>Important panel that will always be really wide Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h2> Posts </h2>
+            <ul>
+                <li><b>2458 </b> Published Posts</li>
+                <li><b>18</b> Drafts.</li>
+                <li>Most popular post: <b>This is a post title</b>.</li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h2> Chart </h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+        </section>
+
+        <section class="panel important">
+            <h2> Write a post </h2>
+            <form action="#">
+                <div class="twothirds">
+                    <label for="name"> Text Input: </label>
+                    <input type="text" name="name" id="name" placeholder="John Smith" />
+
+                    <label for="textarea"> Textarea:</label>
+                    <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</body>
+
+</html>
